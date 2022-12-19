@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/e68f85935a.js" crossorigin="anonymous"></script>
+    <title>The Service Providers</title>
+</head>
+<body>
+ 
+<div id="react-container" style="height: 100%;">
+    <div style="height:100%">
+        <div class="base">
+         <!-- navbar -->
+         <header class="navbar">
+            <div class="navbar-container">
+                <a href="/" class="logo"><img src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1631097450980-d2de38.png" alt="logo"></a>
+                <div class="navbar-content">
+                    <ul class="navbar-content-list">
+                        <li><a href="./blogs.html" target="_blank">Blog</a></li>
+                        <li><a class="professional" href="./proRegistration.html" target="_blank" >Register as Professional</a></li>
+                        <li>
+                            <div class="login"><a href="" onclick="openForm()"><b id="Account">Login/Sign Up</b></a>
+                                <div class="form-popup" id="myForm">
+                                    <form class="form-container">
+                                     <div id="logincrossflex"> <i class="fa-solid fa-xmark" onclick="closeForm()"></i><h3> Please login to continue</h3></div>
+                                  
+                                      <div id="phoneflex">  
+                                          <div>
+                                              <img src="./images/icons8-indian-flag-64.png" alt="">
+                                              <h3>+91</h3>
+                                          </div>
+                                      <input type="text" placeholder="Your phone number" name="phonen" id="phonenumber" required >
+                                  </div>
+                                      <button  class="btn" onclick="Continue()">Continue</button>
+                                      
+                                    </form>
+                                  </div>
+                                  
+                                  <div class="formotp" id="otpform">
+                                    <form  class="form-container">
+                                     <div id="logincrossflex">
+                                       <h3> Please login to continue</h3></div>
+                                    <div id="childotp">    <h3>Enter verification code</h3>  <p id="number"> We have sent you 4 digit otp on your phone </p></div>
+                                      <div id="otpflex">  
+                                      <input type="text" name="phone" required maxlength="1">
+                                      <input type="text"  name="phone" required maxlength="1" >
+                                      <input type="text" name="phone" required maxlength="1">
+                                      <input type="text" name="phone" required maxlength="1">
+                                  </div>
+                                  <h3 style="text-align:center; color:blue"> Resend OTP</h3>
+                                      <button type="submit" class="btn" onclick="Ac()">Login</button>
+                                      
+                                    </form>
+                                  </div>
+                                </div>
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+         </header>
+         <!-- image -->
+          <div class="component-img">
+            <div class="img-base-img">
+                <div class="img-fade"></div>
+                <img src="https://res.cloudinary.com/urbanclap/image/upload/q_40,f_auto/categories/category_v2/category_19be5040.jpeg" alt="girl with a mask">
+            </div>
+            <div class="component-pt2">
+                <section>
+                    <span class="title">The Urban Company</span>
+                    <h1>Quality Home Services on Demand</h1>
+                    <p>Experienced hand-picked professional to serve you at your doorstep</p>
+                    <div class="city">
+                        <p>where do you want your service</p>
+                        <div class="dropdown">
+                            <div class="dropdownStyle">
+                            <span>select your city</span>
+                               <div class="cityDD">
+                                <select name="" id="">
+                                    <option value="Napur"> Nagpur</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Pune">Pune</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                </select>
+                               </div> 
+                            
+                            </div>
+                        </div>
+                        <button><a href="./main.html"> select</a></button>
+                    </div>
+                </section>
+            </div>
+          </div>
+         <!-- main component C2 -->
+          <main>
+            <div class="componentAdd">
+                <div class="contentC2">
+                    <div class="contentC2Part1">
+                        <h2>Why Urban Company</h2>
+                        <ul>
+                            <li>
+                                <div class="iconRep">
+                                    <div class="iconC2"></div>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/q_40,f_auto/categories/category_v2/category_29614d40.png" alt="">
+                                </div>
+                                <section class="reasonC2">
+                                    <h3 class="reasonHeading">Transparent Pricing</h3>
+                                    <p class="reonsonContent">See fixed prices before you book. No hidden Charges</p>
+                                </section>
+                            </li>
+                            <li>
+                                <div class="iconRep">
+                                    <div class="iconC2"></div>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/q_40,f_auto/categories/category_v2/category_2cc7d0d0.png" alt="">
+                                </div>
+                                <section class="reasonC2">
+                                    <h3 class="reasonHeading">Experts Only</h3>
+                                    <p class="reonsonContent">our professionals are well trained and have on-job expertise.</p>
+                                </section>
+                            </li>
+                            <li>
+                                <div class="iconRep">
+                                    <div class="iconC2"></div>
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/q_40,f_auto/categories/category_v2/category_2caafa00.png" alt="">
+                                </div>
+                                <section class="reasonC2">
+                                    <h3 class="reasonHeading">Fully equipped</h3>
+                                    <p class="reonsonContent">We bring everything needed to get the job done.</p>
+                                </section>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contentC2Part2">
+                        <div class="iconRepC2">
+                            <div class="iconP2"></div>
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/q_20,f_auto/categories/category_v2/category_cb4d9130.png" alt="">
+                        </div>
+                        <h3 class="heading">100% Quality Assured</h3>
+                        <p class="paragraph">If you don't love our service, we will make it right!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="componentAdd2">
+                <div class="componentAdd">
+                    <section class="contact">
+                        <h2>Book a professional</h2>
+                        <p>Enter your contact number to get the App download Link</p>
+                        div.
+                        <div class="contactSection">
+                            <div class="contactBox">
+                                <span class="countryCode">
+                                    <img src="https://res.cloudinary.com/urbanclap/image/upload/t_low_res_template/images/supply/partner-app-supply/1661338258375-6c99b1.png" alt="" class="countryCodeDropDown">
+                                    <span>+91</span>
+                                
+                                 <span class="dropDown">
+                                    <span class="dropIcon">
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </span>
+                                 </span>
+                                </span>
+                                <input type="number" class="phoneNumber">
+                                <button class="send">Send</button>
+                            </div>
+                        </div>
+                        <div class="downloadBtns">
+                            <a href="https://play.google.com/store/apps/details?id=com.urbanclap.urbanclap&referrer=af_tranid%3D3UtevLKu6rw2kw3Z0bqeCQ%26pid%3DMobileWeb%26c%3Dhome_app_buttons">
+                                <div class="playStore">
+                                    <div class="playStoreBtn"></div>
+                                    <img src="https://images.urbanclap.com/image/upload/categories/category_v2/category_7f907eb0.png" alt="play store">
+                                </div>
+                            </a>
+                            <a href="https://apps.apple.com/US/app/id1032480595?mt=8">
+                                <div class="apple">
+                                    <div class="appleStoreBtn"></div>
+                                    <img src="https://images.urbanclap.com/image/upload/categories/category_v2/category_7f741d10.png" alt="apple store">
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                    <div class="addImg">
+                        <div class="img1">
+                            <div class="img1bg"></div>
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/w_300,f_auto/categories/category_v2/category_2d7045d0.png" alt="image1">
+                        </div>
+                        <div class="img1">
+                            <div class="img1bg"></div>
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/w_350,f_auto/categories/category_v2/category_2d013050.png" alt="image2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </main>
+          <!-- footer -->
+          <footer class="footer">
+            <div class="footerBasic">
+                <div class="footerAbout">
+                    <ul>
+                        <li><a href="https://www.urbancompany.com/about">About US</a></li>
+                        <li><a href="https://www.urbancompany.com/impact">UC Impacr=t</a></li>
+                        <li><a href="https://www.urbancompany.com/terms">Terms & Condition</a></li>
+                        <li><a href="https://www.urbancompany.com/privacy-policy">Privacy Policies</a></li>
+                        <li><a href="https://www.urbancompany.com/privacy-policy">Interest-Based Advertising</a></li>
+                        <li><a href="https://www.urbancompany.com/anti-discrimination-policy">Anti Discriminatory Policies</a></li>
+                        <li><a href="https://www.urbancompany.com/partner-welfare-policy">Partner welfare Policy</a></li>
+                        <li><a href="https://www.urbancompany.com/infosec-policy-statement-and-objective">Information Security Policy Statement & Objective</a></li>
+                        <li><a href="https://www.urbancompany.com/blog">Blogs</a></li>
+                        <li><a href="https://www.urbancompany.com/reviews">Reviews</a></li>
+                        <li><a href="https://www.urbancompany.com/near-me">Near Me</a></li>
+                        <li><a href="https://careers.urbanclap.com/">Careers</a></li>
+                        <li><a href="https://www.urbancompany.com/purchase-giftcards">Gift Cards</a></li>
+                        <li><a href="https://www.urbancompany.com/contact-us">Contact Us</a></li>
+                        <li><a href="https://www.urbancompany.com/quick-links">Quick Links</a></li>
+                    </ul>
+                </div>
+                <div class="serving">
+                    <p>Serving In</p>
+                    <ul class="countries">
+                        <li>
+                            <span class="countryName">USA</span>
+                            <ul>
+                                <li><a href="https://www.urbancompany.com/austin">Austin</a></li>
+                                <li><a href="https://www.urbancompany.com/dallas">Dallas</a></li>
+                                <li><a href="https://www.urbancompany.com/new-york-city">New York City</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="countryName">IND</span>
+                            <ul>
+                                <li><a href="https://www.urbancompany.com/agra">Agra</a></li>
+                                <li><a href="https://www.urbancompany.com/ahmedabad">Ahemdabad</a></li>
+                                <li><a href="https://www.urbancompany.com/alwar">Alwar</a></li>
+                                <li><a href="https://www.urbancompany.com/amritsar">Amritsar</a></li>
+                                <li><a href="https://www.urbancompany.com/aurangabad">Aurangabad</a></li>
+                                <li><a href="https://www.urbancompany.com/bangalore">Bangalore</a></li>
+                                <li><a href="https://www.urbancompany.com/bhopal">Bhopal</a></li>
+                                <li><a href="https://www.urbancompany.com/bhubaneswar">bhubaneswar</a></li>
+                                <li><a href="https://www.urbancompany.com/chandigarh">chandigarh</a></li>
+                                <li><a href="https://www.urbancompany.com/chennai">Chennai</a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="countryName">UAE</span>
+                            <ul>
+                                <li><a href="">Abu Dhabi</a></li>
+                                <li><a href="">Dubai</a></li>
+                                <li><a href="">Sharjah</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="countryName">SGP</span>
+                            <ul>
+                                <li><a href="">Singapore</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="countryName">
+                                <ul>
+                                    <li><a href="">Jeddah</a></li>
+                                    <li><a href="">Riyadh</a></li>
+                                </ul>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footerFoot">
+                    <div class="brand">
+                        <a href="https://www.urbancompany.com/"></a>
+                        <div class="logo">
+                            <div class="logoBg"></div>
+                            <img src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1631097450980-d2de38.png" alt="logo">
+                        </div>
+                        <span class="Company">© 2014-22 UrbanClap Technologies India Pvt. Ltd.</span>
+                    </div>                
+                <ul class="footerSocials">
+                    <li>
+                        <a href="https://twitter.com/urbancompany_UC"></a>
+                        <span class="socialsContainer">
+                            <span class="icon"><i class="fa-brands fa-twitter"></i></span>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/UrbanCompany/"></a>
+                        <span class="socialsContainer">
+                            <span class="icon"><i class="fa-brands fa-twitter"></i></span>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/urbancompany/"></a>
+                        <span class="socialsContainer">
+                            <span class="icon"><i class="fa-brands fa-twitter"></i></span>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCjNJe0jgLP257X9LsSuyIpg"></a>
+                        <span class="socialsContainer">
+                            <span class="icon"><i class="fa-brands fa-twitter"></i></span>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/urbancompany/"></a>
+                        <span class="socialsContainer">
+                            <span class="icon"><i class="fa-brands fa-twitter"></i></span>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com/UrbanCompanyOfficial/"></a>
+                        <span class="socialsContainer">
+                            <span class="icon"><i class="fa-brands fa-twitter"></i></span>
+                        </span>
+                    </li>
+                </ul>
+                <div class="downloadBtns">
+                    <a href="https://app.appsflyer.com/com.urbanclap.urbanclap?pid=MobileWeb&c=home_app_buttons">
+                        <div class="download">
+                            <div class="downloadBg"></div>
+                            <img src="https://images.urbanclap.com/image/upload/categories/category_v2/category_7f907eb0.png" alt="android">
+                        </div>
+                    </a>
+                    <a href="https://app.appsflyer.com/id1032480595?pid=MobileWeb&c=home_app_buttons" class="btn2">
+                        <div class="download">
+                            <div class="downloadBg"></div>
+                            <img src="https://images.urbanclap.com/image/upload/categories/category_v2/category_7f741d10.png" alt="android">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            </div>
+          </footer>
+          
+        </div>
+    </div>
+</div>
+<script src="./login.js"></script>
+</body>
+</html>

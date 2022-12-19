@@ -1,0 +1,125 @@
+.carousel-item img{
+    height: 400px;
+}
+.carousel-caption img{
+    margin-bottom: 150px;
+    height: 7rem;
+}
+/* blogs */
+.content{
+    margin-right: 200px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: space-around;
+    height: 150px;
+}
+.flex-container .first img{
+    height:150px;
+    width: 250px;
+}
+.flex-container .card{
+   width: 700px;
+   height: 200px;
+   border: none;
+   margin-left: 150px;
+}
+.scrollable{
+    height: 100%;
+    overflow: scroll;
+    width: 540px;
+}
+.space{
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+}
+.second .scrollable .card{
+    margin-left: 0px;
+    border: 1px black;
+}
+
+    /* title */
+.container{
+    margin-top: 50px; 
+    text-decoration: overline blue;
+    padding: 0;
+}
+.content2{
+    margin-top: 80px;
+}
+.content-holder .content-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
+}
+
+.content2 .content-holder{
+    display: flex;
+    flex-direction: row;
+    /* max-width: 1140; */
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:space-around;
+}
+.content2 .content-holder .part1{
+    display: flex;
+}
+
+ /* title content2 */
+ .content2 .container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-right:450px;
+    padding-left:0px;
+ }
+ .scroll-content3{
+    margin-top: 80px;
+ }
+ .scroll-content3 .scroll1{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .scroll-content3 .scroll1 .scrollable{
+    background-color: #F2F2F2;
+    height: 300px;
+    overflow: scroll;
+    width: 540px;
+ }
+ .scroll1 .scrollable .card{
+    background-color: #F2F2F2;
+    border: none;
+    height: 120px;
+ }
+ .scrollable .card .col-md-4{
+    margin-bottom: 20px;
+ }
+ /* footer */
+ .footer{
+    background-color: #F2F2F2;
+    margin: 100px;
+ }
+ .footer-container{
+    background-color: #F2F2F2;
+    margin-top: 80px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 2px black solid;
+ }
